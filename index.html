@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <main>
         <h1>Tic Tac Toe Game</h1>
 
@@ -28,7 +29,19 @@
 
         <button id="reset-btn">Reset Game</button>
     </main>
+
+    <div class="overlay" id="overlay">
+        <div class="modal">
+            <img src="img/close-icon.png" class="close-img" alt="Coding" onclick="closeModal()" />
+            <div class="msg-container hide">
+                <p id="msg">Winner</p>
+                <button id="new-btn" onclick="openModal()">New Game</button>
+            </div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
+
 </body>
 
 </html>
