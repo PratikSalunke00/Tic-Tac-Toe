@@ -106,3 +106,13 @@ main {
     right: 9px;
     height: 30px;
 }
+
+@media (max-width: 500px) {
+    .main-container {
+    height: 50vh;
+}
+/* .box-container {
+    height: 60vmin;
+    width: 60vmin;
+} */
+}
